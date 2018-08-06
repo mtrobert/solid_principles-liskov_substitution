@@ -2,7 +2,7 @@
 
 class FileCarRepository implements CarRepositoryInterface
 {
-  public function getAll()
+  public function getAll() :array
   {
     //return through filesystem
     return [];
