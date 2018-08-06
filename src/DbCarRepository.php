@@ -7,6 +7,6 @@ class DbCarRepository implements CarRepositoryInterface
   {
     // return through db
     $CarRepo = new stdClass(); //represents data from db
-    return $CarRepo;
+    return (array)$CarRepo;   //return an array as specified in the interface
   }
 }
